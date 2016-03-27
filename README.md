@@ -10,8 +10,9 @@ OpenDesign specification lists 78 types of objects ((page 102)[https://www.opend
 * arc - дуга, 2 vertex 3D + средняя точка и дуговой сегмент (не путать с дуговым сегментом полилинии)
 * circle - окружность
 * ellipse - эллипс
-* polyline-2D - 2 и более 2D vertex
-* polyline-3D - 2 и более 3D vertex
+* polyline-2D-line - 2 и более 2D vertex, line сегменты
+* polyline-2D-arc - 2 и более 2D vertex, arc сегменты
+* polyline-3D-line - 2 и более 3D vertex, line сегменты
 * polyline (mesh) - 
 * polyline (pface) - 
 * spline - 
