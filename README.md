@@ -5,13 +5,22 @@ AutoCAD DWG samples
 #Types of objects
 OpenDesign specification lists 78 types of objects ((page 102)[https://www.opendesign.com/files/guestdownloads/OpenDesign_Specification_for_.dwg_files.pdf])
 
-* point - точка (vertex 3D)
-* line - отрезок (2 vertex 3D)
-* arc - дуга (2 vertex 3D + средняя точка и дуговой сегмент (не путать с дуговым сегментом полилинии)
-* circle - 1 узел и радиус
-* ellipse - 1 узел, большая и малая полуоси
-* polyline-2D - более чем 2 узла, узлы - vertex 2D
-* polyline-3D - более чем 2 узла, узлы - vertex 3D, 3 координаты могут быть разные
+* point - точка, vertex 3D (point)
+* line - отрезок, 2 vertex 3D (polyline_line)
+* arc - дуга, 2 vertex 3D + средняя точка и дуговой сегмент (не путать с дуговым сегментом полилинии)
+* circle - окружность
+* ellipse - эллипс
+* polyline-2D - 2 и более 2D vertex
+* polyline-3D - 2 и более 3D vertex
 * polyline (mesh) - 
 * polyline (pface) - 
+* spline - 
 
+#Formats
+
+* 2000
+* 2004
+* 2007
+* 2010
+* 2013
+* R14
