@@ -5,7 +5,16 @@ AutoCAD DWG samples
 #Types of objects
 OpenDesign specification lists 78 types of objects ((page 102)[https://www.opendesign.com/files/guestdownloads/OpenDesign_Specification_for_.dwg_files.pdf])
 
-* point - точка, vertex 3D (point)
+Each command should end with two spaces. New DWGs are created via New -> Open with no template - metric
+
+* point2D - точка, vertex 2D (point)
+
+  ```_POINT 50,50 ```  
+
+* point3D - точка, vertex 3D (point)
+
+  ```_POINT 50,50,50 ```  
+
 * line - отрезок, 2 vertex 3D (polyline_line)
 
   ```_LINE 50,50 100,100  ```   
