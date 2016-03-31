@@ -7,6 +7,9 @@ OpenDesign specification lists 78 types of objects ((page 102)[https://www.opend
 
 * point - точка, vertex 3D (point)
 * line - отрезок, 2 vertex 3D (polyline_line)
+
+  ```_LINE 50,50 100,100  ```   
+  
 * arc - дуга, 2 vertex 3D + средняя точка и дуговой сегмент (не путать с дуговым сегментом полилинии)
 * circle - окружность
 * ellipse - эллипс
