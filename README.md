@@ -1,5 +1,5 @@
 # dwg_samples
-AutoCAD DWG samples
+AutoCAD DWG samples. Produced with trial AutoCAD 2016 M.49.0.0
 
 
 #Types of objects
@@ -20,7 +20,13 @@ Each command should end with two spaces. New DWGs are created via New -> Open wi
   ```_LINE 50,50 100,100  ```   
   
 * arc - дуга, 2 vertex 3D + средняя точка и дуговой сегмент (не путать с дуговым сегментом полилинии)
+  
+  ```_ARC 50,50 75,75 100,50 ```
+
 * circle - окружность
+  
+  ```_CIRCLE 50,50 50 ```
+
 * ellipse - эллипс
 * polyline-2D-line - 2 и более 2D vertex, line сегменты
 * polyline-2D-arc - 2 и более 2D vertex, arc сегменты
