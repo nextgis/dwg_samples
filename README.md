@@ -28,6 +28,9 @@ Each command should end with two spaces. New DWGs are created via New -> Open wi
   ```_CIRCLE 50,50 50 ```
 
 * ellipse - эллипс
+
+  ```_ELLIPSE 50,50 150,150 30 ```
+
 * polyline-2D-line - 2 и более 2D vertex, line сегменты
 * polyline-2D-arc - 2 и более 2D vertex, arc сегменты
 * polyline-3D-line - 2 и более 3D vertex, line сегменты
